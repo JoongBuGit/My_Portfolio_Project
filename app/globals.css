@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.menu_item {
+  background-color: rgb(87, 133, 234);
+  padding: 11px;
+
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  /* display : flex로 자식들을 일정한 크기의 넓이를 가게 된다 */
+
+  justify-content: center;
+  /* display: flex를 사용할 경우에는 text-align속성은 안되고 justify-content를 사용해야한다. */
+}
+
+.menu_dropdown_item {
+  background-color: rgb(214, 185, 147);
+  padding: 11px;
+
+  border-radius: 50px;
+  color: darkolivegreen;
+  display: flex;
+  /* display : flex로 자식들을 일정한 크기의 넓이를 가게 된다 */
+
+  justify-content: center;
+  /* display: flex를 사용할 경우에는 text-align속성은 안되고 justify-content를 사용해야한다. */
+
+  overflow: hidden;
+  max-height: 0%;
+}
+
+.menu_dropdown_team_project {
+  display: none;
+}
+
+.menu_dropdown_personal_project {
+  display: none;
+}
+
+.text_header {
+  font-size: xx-large;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.text_p {
+  font-size: 17px;
+  line-height: 2;
+  color: black;
+  background: linen;
+}
+
+/* 아래는 초반설정 css 지워도 될듯 하다. */
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
