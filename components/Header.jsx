@@ -95,6 +95,14 @@ const Header = () => {
                   쇼핑몰
                 </Link>
               </ul>
+              <ul>
+                <Link
+                  href="/personal_project/p4_mongo_db"
+                  className="menu_item hover:bg-blue-700"
+                >
+                  몽고DB
+                </Link>
+              </ul>
             </div>
           </div>
 
