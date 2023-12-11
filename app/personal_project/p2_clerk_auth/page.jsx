@@ -5,6 +5,8 @@ export default function page() {
   return (
     <div>
       <h1 className="text_header">Clerk Auth 프로젝트</h1>
+      <div>로그인과 개인정보 페이지 등을 보여주는 프로젝트입니다.</div>
+      <br />
       <ul className="text_p hover:bg-slate-300">
         <Link href="https://school-react-project.vercel.app/">
           홈페이지 : https://school-react-project.vercel.app/

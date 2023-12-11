@@ -5,6 +5,8 @@ export default function page() {
   return (
     <div>
       <h1 className="text_header">쇼핑몰 프로젝트</h1>
+      <div>쇼핑몰 프로젝트입니다.</div>
+      <br />
       <ul className="text_p hover:bg-slate-300">
         <Link href="https://school-shopping-project-qfpr.vercel.app/">
           홈페이지 : https://school-shopping-project-qfpr.vercel.app/
