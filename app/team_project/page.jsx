@@ -40,7 +40,9 @@ export default function page() {
         <Link href="">홈페이지 :</Link>
       </ul>
       <ul className="text_p hover:bg-slate-300">
-        <Link href={''}>github :</Link>
+        <Link href={'https://github.com/kks0509/ex'}>
+          github : https://github.com/kks0509/ex
+        </Link>
       </ul>
       <br />
 
