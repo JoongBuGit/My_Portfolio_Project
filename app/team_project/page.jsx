@@ -37,7 +37,9 @@ export default function page() {
       </ul>
 
       <ul className="text_p hover:bg-slate-300">
-        <Link href="">홈페이지 :</Link>
+        <Link href="https://ex-sigma.vercel.app/">
+          홈페이지 : https://ex-sigma.vercel.app/
+        </Link>
       </ul>
       <ul className="text_p hover:bg-slate-300">
         <Link href={'https://github.com/kks0509/ex'}>
